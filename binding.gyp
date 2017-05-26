@@ -20,7 +20,7 @@
                     ],
                     'link_settings': {
                         'libraries': [ '-lpcsclite' ],
-                        'library_dirs': [ '/usr/lib' ]
+                        'library_dirs': [ '../../../../../staging/usr/lib' ]
                     }
                 }],
                 ['OS=="mac"', {
