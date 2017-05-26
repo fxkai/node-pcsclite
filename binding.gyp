@@ -15,7 +15,7 @@
             'conditions': [
                 ['OS=="linux"', {
                     'include_dirs': [
-                        '../../../include/PCSC',
+                        '../../../../../staging/usr/include/PCSC',
                         '<!(node -e "require(\'nan\')")'
                     ],
                     'link_settings': {
