@@ -15,7 +15,7 @@
             'conditions': [
                 ['OS=="linux"', {
                     'include_dirs': [
-                        '\$\{prefix\}/include/PCSC',
+                        '${PREFIX}/include/PCSC',
                         '<!(node -e "require(\'nan\')")'
                     ],
                     'link_settings': {
